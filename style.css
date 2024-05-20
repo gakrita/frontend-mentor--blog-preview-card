@@ -9,7 +9,7 @@
 
   --fs-200: 0.7375rem;
   --fs-300: 0.8375rem;
-  --fs-400: 0.9375rem;
+  --fs-400: 0.9rem;
   --fs-700: 1.2375rem;
   --fs-900: 1.5375rem;
 
@@ -33,7 +33,7 @@
 body {
   color: var(--clr-neutral-800);
   font-family: var(--ff-regular);
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
   font-weight: var(--fw-regular);
   line-height: 1.5;
 }
