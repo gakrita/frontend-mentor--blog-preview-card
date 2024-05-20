@@ -61,7 +61,7 @@ h1 {
   background-color: var(--clr-primary);
   border-radius: var(--br-small);
   padding: 0.3rem 0.7rem;
-  margin-block: 1.1rem 0.7rem;
+  margin-block: 1rem 0.7rem;
 }
 
 h3 {
@@ -81,9 +81,9 @@ p {
 
 .card {
   background-color: var(--clr-neutral-100);
-  border: 2px solid var(--clr-neutral-800);
+  border: 2px solid var(--clr-neutral-500);
   border-radius: var(--br-large);
-  box-shadow: 8px 8px 1px 0px var(--clr-neutral-800);
+  box-shadow: 7px 8px 1px 0px var(--clr-neutral-800);
   width: min(88%, 380px);
   padding: 1.4rem;
   overflow: hidden;
