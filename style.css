@@ -64,6 +64,10 @@ h1 {
   margin-block: 1rem 0.7rem;
 }
 
+h2, p {
+  color: var(--clr-neutral-500);
+}
+
 h3 {
   font-size: var(--fs-700);
   margin-block: 0.9rem;
@@ -75,7 +79,6 @@ h3:hover {
 }
 
 p {
-  color: var(--clr-neutral-500);
   margin-bottom: 1.5rem;
 }
 
