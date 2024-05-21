@@ -86,7 +86,7 @@ p {
   background-color: var(--clr-neutral-100);
   border: 2px solid var(--clr-neutral-500);
   border-radius: var(--br-large);
-  box-shadow: 8px 8px 1px 0px var(--clr-neutral-800);
+  box-shadow: 8px 8px 0px 0px var(--clr-neutral-800);
   width: min(88%, 380px);
   padding: 1.4rem;
   overflow: hidden;
