@@ -105,6 +105,7 @@ h3:hover {
 
 .flex-group__caption {
   color: var(--clr-neutral-800);
+  font-size: var(--fs-300);
   font-weight: var(--fw-bold);
 }
 
