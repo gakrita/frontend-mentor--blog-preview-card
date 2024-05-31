@@ -57,6 +57,7 @@ h1 {
 
 p {
   color: var(--clr-neutral-800);
+  font-weight: var(--fw-bold);
 }
 
 h3 {
