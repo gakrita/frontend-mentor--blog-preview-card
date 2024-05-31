@@ -58,8 +58,7 @@ h2 {
   font-weight: var(--fw-bold);
 }
 
-h1,
-h3 {
+h1 {
   font-weight: var(--fw-bold);
 }
 
