@@ -50,21 +50,14 @@ h1 {
   background-color: var(--clr-primary);
   border-radius: var(--br-small);
   font-size: var(--fs-200);
+  font-weight: var(--fw-bold);
   padding: 0.3rem 0.7rem;
   margin-block: 1rem 0.7rem;
 }
 
 h2 {
-  font-weight: var(--fw-bold);
-}
-
-h1 {
-  font-weight: var(--fw-bold);
-}
-
-h2,
-p {
   color: var(--clr-neutral-500);
+  font-weight: var(--fw-bold);
 }
 
 h3 {
@@ -78,6 +71,7 @@ h3:hover {
 }
 
 .card__paragraph {
+  color: var(--clr-neutral-500);
   margin-bottom: 1.4rem;
 }
 
