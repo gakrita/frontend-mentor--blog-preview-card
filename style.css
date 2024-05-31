@@ -2,7 +2,6 @@
   --clr-primary: hsl(47, 88%, 63%);
 
   --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-400: hsl(0, 0%, 60%);
   --clr-neutral-500: hsl(0, 0%, 50%);
   --clr-neutral-800: hsl(0, 0%, 7%);
 
@@ -57,7 +56,7 @@ h1 {
 }
 
 h2 {
-  color: var(--clr-neutral-400);
+  color: var(--clr-neutral-500);
   font-weight: var(--fw-bold);
 }
 
