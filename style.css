@@ -72,7 +72,7 @@ main {
   font-size: var(--fs-200);
   font-weight: var(--fw-bold);
   padding: 0.3rem 0.7rem;
-  margin-block: 1rem 0.6rem;
+  margin-block: 1rem 0.65rem;
 }
 
 .card__heading-2 {
