@@ -1,0 +1,130 @@
+:root {
+  --clr-primary: hsl(47, 88%, 63%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-500: hsl(0, 0%, 50%);
+  --clr-neutral-600: hsl(0, 0%, 30%);
+  --clr-neutral-800: hsl(0, 0%, 7%);
+
+  --ff-regular: "Figtree", sans-serif;
+
+  --fs-200: 0.7375rem;
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-700: 1.2375rem;
+  --fs-900: 1.5rem;
+
+  --fw-regular: 500;
+  --fw-bold: 800;
+
+  --br-small: 10px;
+  --br-large: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  color: var(--clr-neutral-800);
+  font-family: var(--ff-regular);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+}
+
+main {
+  background-color: var(--clr-primary);
+
+  min-height: 100vh;
+  align-content: center;
+}
+
+h1 {
+  display: inline-block;
+  background-color: var(--clr-primary);
+  border-radius: var(--br-small);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-bold);
+  padding: 0.3rem 0.7rem;
+  margin-block: 1rem 0.7rem;
+}
+
+h2 {
+  color: var(--clr-neutral-600);
+}
+
+h3 {
+  font-size: var(--fs-700);
+  margin-block: 0.8rem;
+}
+
+h3:hover {
+  color: var(--clr-primary);
+  cursor: pointer;
+}
+
+.card__paragraph {
+  color: var(--clr-neutral-500);
+  margin-bottom: 1.4rem;
+}
+
+.card {
+  background-color: var(--clr-neutral-100);
+  border: 2px solid var(--clr-neutral-500);
+  border-radius: var(--br-large);
+  box-shadow: 8px 8px 0px 0px var(--clr-neutral-800);
+  width: min(88%, 384px);
+  margin: auto;
+  padding: 1.4rem;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--br-small);
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.flex-group__image {
+  width: 32px;
+  height: 32px;
+}
+
+.flex-group__caption {
+  color: var(--clr-neutral-800);
+  font-size: 0.884rem;
+  font-weight: var(--fw-bold);
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: var(--fs-400);
+  }
+
+  h1 {
+    font-size: var(--fs-300);
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: var(--fs-900);
+    font-weight: var(--fw-bold);
+  }
+}
