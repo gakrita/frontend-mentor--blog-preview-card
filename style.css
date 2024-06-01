@@ -127,6 +127,5 @@ h3:hover {
   h3 {
     font-size: var(--fs-900);
     font-weight: var(--fw-bold);
-    margin-block: 0.7rem;
   }
 }
