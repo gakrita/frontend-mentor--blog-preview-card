@@ -94,7 +94,6 @@ main {
 }
 
 .card__paragraph {
-  margin-top: 0.85rem;
   color: var(--clr-neutral-500);
 }
 
