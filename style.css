@@ -85,7 +85,7 @@ main {
 
 .card__heading-3 {
   font-size: var(--fs-700);
-  margin-block: 0.8rem;
+  margin-block: 0.7rem;
 }
 
 .card__heading-3:hover {
