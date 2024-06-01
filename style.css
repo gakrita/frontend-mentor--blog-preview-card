@@ -116,10 +116,12 @@ h3:hover {
     font-size: var(--fs-400);
   }
 
-  h1,
-  h2 {
+  h1 {
     font-size: var(--fs-300);
   }
+
+  h2 {
+    font-size: 0.975rem;
 
   h3 {
     font-size: var(--fs-900);
