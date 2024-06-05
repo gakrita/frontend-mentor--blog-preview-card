@@ -54,7 +54,7 @@ main {
   box-shadow: 8px 8px 0px 0px var(--clr-neutral-800);
   width: min(88%, 384px);
   margin: auto;
-  padding: 1.45rem 1.4rem 1.40rem;
+  padding: 1.43rem 1.4rem 1.42rem;
   overflow: hidden;
 }
 
