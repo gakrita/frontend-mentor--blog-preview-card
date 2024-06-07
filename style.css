@@ -77,13 +77,13 @@ main {
   font-size: var(--fs-200);
   font-weight: var(--fw-bold);
   padding: 0.25rem 0.75rem;
-  margin-bottom: 0.74rem;
+  margin-bottom: 0.75rem;
 }
 
 .publishdate {
   font-size: var(--fs-200);
   font-weight: 600;
-  margin-bottom: 0.74rem;
+  margin-bottom: 0.75rem;
 }
 
 .title {
