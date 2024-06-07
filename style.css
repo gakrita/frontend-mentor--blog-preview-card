@@ -61,7 +61,7 @@ main {
 .blogimage {
   display: block;
   width: 100%;
-  height: 200px;
+  height: 201px;
   object-fit: cover;
   border-radius: var(--br-medium);
 }
