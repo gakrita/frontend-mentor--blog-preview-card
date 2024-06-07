@@ -89,7 +89,7 @@ main {
 .title {
   font-size: var(--fs-500);
   font-weight: var(--fw-bold);
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.75rem;
 }
 
 .title:hover {
